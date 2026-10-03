@@ -1,0 +1,41 @@
+# Private boot-region and card captures
+*.img
+*.img.*
+card-safety-backup/
+private/
+
+# Downloaded upstream artifacts (download them from their official source)
+*.zip
+*.pdf
+
+# Personal media and iPod databases
+Music/
+Recordings/
+iPod_Control/
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.wav
+*.ogg
+*.opus
+*.mp4
+*.mkv
+*.m3u
+*.m3u8
+*.tcd
+*.bmark
+
+# Local Rockbox state and legacy working files
+rockbox-blue-night/
+rebuild_ipod_from_old_card.sh
+IPOD_TRANSFER_PROCEDURE.md
+IPOD5_LINUX_RECOVERY_REPORT.md
+*.log
+*.old
+FSCK*.REC
+
+# Editor/OS noise
+.DS_Store
+._*
+*~
